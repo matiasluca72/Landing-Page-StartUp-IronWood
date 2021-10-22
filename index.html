@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iron Wood Design | Sitio Oficial</title>
+  <!-- META TAGS-->
+  <meta name="description"
+    content="Página oficial de Iron Wood. Ofrecemos productos de calidad hechos de madera e hierro." />
+  <meta name="keywords"
+    content="iron wood, muebles, madera e hierro, madera y hierro, muebles en mendoza, muebles artesanales, mendoza argentina" />
+  <meta name="author" content="Matias Luca Soto" />
+  <meta name="copyright" content="MLS Developer 2021" />
+  <!-- ROBOTS -->
+  <meta name="robots" content="index follow" />
+  <!-- FAV ICON -->
+  <link rel="icon" href="images/logo.jpg" type="image/jpg" />
+  <!-- FACEBOOK META -->
+  <meta property="og:title" content="Iron Wood Design | Sitio Oficial" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/logo.jpg" />
+  <meta property="og:url" content="ironwood.web.app" />
+  <meta property="og:description"
+    content="Página oficial de Iron Wood. Ofrecemos productos de calidad hechos de madera e hierro." />
+  <!-- TWITTER META -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="MLS Developer" />
+  <meta name="twitter:title" content="Iron Wood Design | Sitio Oficial" />
+  <meta name="twitter:description"
+    content="Página oficial de Iron Wood. Ofrecemos productos de calidad hechos de madera e hierro." />
+  <meta name="twitter:image" content="images/logo.jpg" />
+  <!-- CSS  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/e8da330914.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- HEADER y NAVBAR -->
+  <header>
+    <div class="logo">
+      <a href="#inicio"><img src="images/logo.jpg" alt="" class="logo__img" /></a>
+    </div>
+    <!-- <div class="btnResponsive"> -->
+    <input type="checkbox" id="btn-menu" />
+    <label for="btn-menu"><img src="images/menu.png" alt="" /></label>
+    <!-- </div> -->
+    <nav class="menu">
+      <!-- NavBar buttons linked to different sections. There's also a scrollmenu inside 'Modelos' -->
+      <ul>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li>
+          <a href="#modelos">Modelos</a>
+          <ul class="submenu">
+            <li><a href="#mesas">Mesas</a></li>
+            <li><a href="#racks">Racks</a></li>
+            <li><a href="#estanterias">Estanterías</a></li>
+            <li><a href="#escritorios">Escritorios</a></li>
+            <li><a href="#mesasRatonas">Mesas ratonas</a></li>
+            <li><a href="#mesasDeLuz">Mesas de luz</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN SECTION -->
+  <section class="splash" id="inicio">
+    <div class="splash__container">
+      <h1>Iron Wood Design</h1>
+      <h2>Encontrá el mueble que estás buscando.</h2>
+      <a href="#modelos"><button type="button" class="btn btn-warning">Ver muebles</button></a>
+    </div>
+  </section>
+
+  <!-- DISCOUNT SECTION -->
+  <section class="descuento">
+    <div class="descuento__banner espacios">
+      <h2 class="descuento__bannerCopy">
+        <strong>10% OFF</strong> pagando con efectivo.
+      </h2>
+      <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en..."
+        target="_blank"><button type="button" class="btn btn-success">
+          Consultar <i class="fab fa-whatsapp"></i></button></a>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section class="nosotros espacios" id="nosotros">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Nosotros</h1>
+          <h2>Quienes somos</h2>
+          <hr />
+          <p>
+            Somos un emprendimiento familiar dedicada a la fabricación y diseños de muebles 100% artesanales y con la
+            mejor calidad, ajustando el diseño, estilo y necesidades que necesites, sumándole nuestra experiencia en la
+            precisión para lograr el mueble perfecto.
+            <br><br>
+            Iron Wood se creó con la idea de fabricar los mejores
+            muebles de todos los estilos, industrial, minimalista, nórdico,
+            etc. combinando la calidez de las mejores maderas con la rigidez y
+            dureza del hierro. Nuestro sueño es seguir creciendo, ofreciendo
+            al cliente la mejor calidad, garantía y muebles de primera
+            calidad.
+          </p>
+        </div>
+        <div class="col-lg-6 nosotros__img">
+          <img loading="lazy" src="images/logo.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MORE ABOUT US SECTION WITH A FIXED BACKGROUND -->
+  <section class="bannerMedidas">
+    <div class="container">
+      <div class="row bannerMedidas__row">
+        <div class="col-md-6">
+          <h2>Hechos a tu medida.</h2>
+          <hr />
+          <p>
+            Todos nuestros muebles son personalizables y ajustables a las
+            medidas que necesites. Te ofrecemos nuestro catálogo de productos
+            con las medidas estándar que pueden servirte como referencia.
+          </p>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS CATEGORY SECTION -->
+  <section class="modelos espacios" id="modelos">
+    <div class="container">
+      <div class="espacios">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h2 class="modelos__titulo">Elegí tu modelo favorito</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 espacios">
+            <p>
+              Los modelos a continuación presentan medidas estándar, recordá
+              que podés personalizarlos con las medidas que vos quieras.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MESAS / TABLES -->
+      <div class="row" id="mesas">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Mesas</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/mesas1.jpg" alt="" />
+          <h4>Mesa 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesas2.jpg" alt="" />
+          <h4>Mesa 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesas3.jpg" alt="" />
+          <h4>Mesa 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+
+      <!-- RACKS -->
+      <div class="row" id="racks">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Racks</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/rack1.jpg" alt="" />
+          <h4>Rack 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20racks."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/rack2.jpg" alt="" />
+          <h4>Rack 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20racks."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/rack3.png" alt="" />
+          <h4>Rack 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20racks."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+
+      <!-- ESTANTERIAS / SHELVES -->
+      <div class="row" id="estanterias">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Estanterías</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/estanteria1.jpg" alt="" />
+          <h4>Estanteria 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20estanterias."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/estanteria2.jpg" alt="" />
+          <h4>Estanteria 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20estanterias."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/estanteria3.jfif" alt="" />
+          <h4>Estanteria 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20estanterias."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+
+      <!-- ESCRITORIOS / DESKS -->
+      <div class="row" id="escritorios">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Escritorios</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/escritorio1.jpg" alt="" />
+          <h4>Escritorio 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20escritorios."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/escritorio2.jpg" alt="" />
+          <h4>Escritorio 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20escritorios."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/escritorio3.jpg" alt="" />
+          <h4>Escritorio 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20escritorios."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+
+      <!-- MESAS RATONAS / SHORT TABLES -->
+      <div class="row" id="mesasRatonas">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Mesas ratonas</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/mesaratona1.jpg" alt="" />
+          <h4>Mesa ratona 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20ratonas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesaratona2.jpg" alt="" />
+          <h4>Mesa ratona 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20ratonas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesaratona3.jpg" alt="" />
+          <h4>Mesa ratona 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20ratonas."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+
+      <!-- MESAS DE LUZ / BEDSIDE TABLES -->
+      <div class="row" id="mesasDeLuz">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h3 class="modelos__titulo">Mesas de luz</h3>
+          <hr />
+        </div>
+      </div>
+      <div class="row row__cards">
+        <div class="card">
+          <img loading="lazy" src="images/mesadeluz1.jpg" alt="" />
+          <h4>Mesas de luz 01</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20de%20luz."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesadeluz2.jpg" alt="" />
+          <h4>Mesas de luz 02</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20de%20luz."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+        <div class="card">
+          <img loading="lazy" src="images/mesadeluz3.jpg" alt="" />
+          <h4>Mesas de luz 03</h4>
+          <p>
+            Madera de pino maciza de 3 cm de espesor
+
+            <strong>Alto:</strong> 0.78 m
+
+            <strong>Largo:</strong> 1.60 m
+
+            <strong>Profundidad:</strong> 0.80 m
+
+            <strong>Precio:</strong> $12.420
+          </p>
+          <button type="button" class="btn btn-success">
+            <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en%20mesas%20de%20luz."
+              target="_blank"><b>Consultar por WhatsApp <i class="fab fa-whatsapp"></i></b></a>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btnCatalogo espacios">
+          <button type="button" class="btn btn-warning">
+            Ver catálogo completo
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="iconos espacios">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h2 class="iconos__titulo">
+            Muebles ideales para tu hogar, negocio u oficina.
+          </h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row espacios">
+        <div class="col-md-4">
+          <i class="fas fa-pencil-ruler"></i>
+          <h3><strong>A medida</strong></h3>
+          <p>Hacemos los muebles en base a tus requisitos y necesidades.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="far fa-handshake"></i>
+          <h3><strong>Trato personalizado</strong></h3>
+          <p>
+            Te ofrecemos un trato personalizado para que tu experiencia al
+            comprar nuestros muebles sea óptima.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="far fa-star"></i>
+          <h3><strong>Estética</strong></h3>
+          <p>
+            Nuestros muebles siguen un estilo minimalista, contando con la
+            nobleza y calidez de la madera combinada con la dureza y
+            resistencia del hierro.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERY INFO SECTION -->
+  <section class="envios espacios">
+    <div class="container envios__container">
+      <div class="row envios__row">
+        <div class="col-md-4">
+          <i class="fas fa-chair"></i>
+          <h3><strong>Retiros por el taller.</strong></h3>
+          <p>
+            Podés retirar tus muebles por nuestro taller apenas esté listo.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-parachute-box"></i>
+          <h3><strong>Envíos a todo Gran Mendoza.</strong></h3>
+          <p>
+            Hacemos envíos a Capital, Godoy Cruz, Guaymallén, Las Heras, Maipú
+            y Luján de Cuyo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP CONTACT SECTION -->
+  <section class="contacto" id="contacto">
+    <div class="contacto__banner espacios">
+      <h2>¡Estamos para ayudarte! Contactanos para hacer tu pedido.</h2>
+      <a href="https://web.whatsapp.com/send?phone=5492612510282&text=¡Hola!%20Vi%20su%20página%20y%20estoy%20interesado%20en..."
+        target="_blank"><button type="button" class="btn btn-success">
+          Mandanos un WhatsApp <i class="fab fa-whatsapp"></i></button></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="p">
+      <p>
+        © Copyright 2021 | Iroon Wood Design | Todos los derechos reservados |
+        MLS Developer
+      </p>
+    </div>
+    <div class="socials">
+      <a href="https://www.instagram.com/ironwood.mdz/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/Ironwood.mdz" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    </div>
+  </footer>
+
+  <!-- FLOATING GO-UP BUTTON WITH A LITTLE OF JAVASCRIPT -->
+  <div class="go-top-container">
+    <div class="go-top-button">
+      <i class="fas fa-chevron-circle-up"></i>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
