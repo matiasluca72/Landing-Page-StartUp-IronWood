@@ -6,13 +6,13 @@ La temática es un emprendimiento de muebles artesanales y rústicos hechos con 
 La landing page está hecha en una sola página y con links en un Navbar para viajar a través de las diferentes secciones.
 
 Características de la landing page:
--Menú responsive con menú hamburguesa hecho con mediQuery y JavaSCript
--Sub-Menú dentro del Menú 'Modelos' desplegable animado
--Botones con la API Whatsapp completamente funcional 
--Íconos de redes sociales 
--Meta tags y SEO friendly
--FB y Twitter meta-tags
--Botón para subir al top diseñado con CSS y JavaScript
+-Menú responsive con menú hamburguesa hecho con mediQuery y JavaSCript <br>
+-Sub-Menú dentro del Menú 'Modelos' desplegable animado <br>
+-Botones con la API Whatsapp completamente funcional <br>
+-Íconos de redes sociales <br>
+-Meta tags y SEO friendly <br>
+-FB y Twitter meta-tags <br>
+-Botón para subir al top diseñado con CSS y JavaScript <br>
 
 NOTA: Los botones 'Ver catálogo' están vacios porque la idea es que conecten con archivos pdf que serán el futuro catálogo.
 < /ESPAÑOL >
